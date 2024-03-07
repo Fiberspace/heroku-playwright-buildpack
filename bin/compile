@@ -84,7 +84,7 @@ EOF
 libvpx6
 EOF
 	    ;;
- 	  "heroku-20")
+ 	  "heroku-22")
 	    cat << EOF >>$build_tmpdir/Aptfile
 libvpx6
 EOF
