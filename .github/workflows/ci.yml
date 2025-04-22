@@ -26,3 +26,11 @@ jobs:
     - run: bash test/run.sh
       env:
         STACK: heroku-22 
+  test_ubuntu_24:
+    runs-on: ubuntu-24.04
+    steps:
+    - uses: actions/checkout@v2
+    - run: bash test/run.sh
+      env:
+        STACK: heroku-24 
+
