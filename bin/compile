@@ -90,8 +90,6 @@ EOF
 	    ;;
  	  "heroku-24")
 	    cat << EOF >>$build_tmpdir/Aptfile
-libvpx7
-libevent-2.1-7
 EOF
 	    ;;
 	  *)
