@@ -68,7 +68,6 @@ libatk1.0-0
 libxcomposite1
 libxdamage1
 libxfixes3
-libgtk-3-0
 EOF
 	fi
 
@@ -90,6 +89,9 @@ EOF
 	    ;;
  	  "heroku-24")
 	    cat << EOF >>$build_tmpdir/Aptfile
+libasound2t64
+libgtk2.0-0t64
+libgtk-3-0t64
 EOF
 	    ;;
 	  *)
